@@ -66,7 +66,6 @@ def filtrar_status(parametro, ano=None, mes=None, first=None):
     return base_filtrada
 
 st.title("Suplyers Payment")
-
 tab1, tab2 = st.tabs(["Visão Geral", "Visão Cliente"])
 
 with tab1:

@@ -39,5 +39,3 @@ def xmltoxlsx(xml_path):
 
    df = pd.DataFrame(rows)
    df.to_excel('resultado_tabela.xlsx', index=False)
-
-
